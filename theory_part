@@ -1,0 +1,49 @@
+Server:
+a computer that stores information that a number of computers can share.
+> server is a main computer of any network that fulfills the request of other computers.
+> the only work of server is to fulfills the request of other computers.
+
+
+> Advantages of server:
+i) provides Backup
+ii)provides security
+iii) storage capcity ( it has a lot of memory as compared to clients)
+iv) 24X7,always connected with high speed internet.
+
+> Types of server:
+i) File server: used to store and distribute files using '.Ftp protocol'.
+
+ii)Application Server:helps to run any application.
+e.g.: I downloded an application in a client computer and now, I want to run it. how will it run?
+firstly it will run on application server then it would start working in that clients server.
+
+iii) Mail server:
+> Mail server is used during sending and recieving any mail, using smtp protocol.
+ e.g:if one client sends mail to another client,then the server will recieve the mail firstly,then server will send that mail to the other client with the help of .smtp protocol.
+
+iv) Web server:
+> finds and gives all the information about the topic that we have searched using https protocol.
+
+
+
+
+
+v) Database server: It finds the data from database.
+
+> disadvantages of server:
+i) if server failed the whole network will destroy.
+ii)It is very costly.
+
+
+
+
+
+
+* Difference between File server and Normal shared folder:
+- Normal shared folders on computer or Servers(without File server role) :
+> Do not have reporting capabilies.
+> FRSM (File Server Resource Manager) is not available or can't be used with non-file server role's servers.
+> File/Folders access catching not available.
+> Quota Management is difficult as you have to assign individual quota limit to every shared folder manually.
+> Can't restrict any file type e.g. Audio/Video to be copied in the shared  folders/files.
+> No notification or alert can be set.

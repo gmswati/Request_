@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Dictionary_swati"
+		},
+		{
+			"path": "../LISt_swati"
+		},
+		{
+			"path": "../Alarm_clock"
+		},
+		{
+			"path": "../JSON_swati"
+		},
+		{
+			"path": "../files_swati"
+		},
+		{
+			"path": "../Webscrapping"
+		}
+	],
+	"settings": {}
+}

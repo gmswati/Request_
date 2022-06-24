@@ -1,0 +1,81 @@
+What is HTTP:
+> Hyper Text Transfer Protocol
+> Communication between Web server & clients
+> HTTP Request / Responses
+> Loading pages,form submit,Ajax calls
+
+HTTP is Stateless:
+> Every request is completly independent.
+> Similar to transactions
+> Programming, Local Storage, Cookies, Sessions are used to create enhanced user experiences.
+
+What is HTTPS?:
+> Hyper Text Transfer Protocol Secure
+> Data sent is encrypted
+> SSL/TLS (Secure sockets layer / transport security layer )
+> Install certificate on web host
+
+HTTP Methods:
+>GET
+- Retrieves data from the server(get a page or read a page)
+>Post
+- Submit data to the server
+(to creating something new object)
+>Put
+- Update data already on the server
+>Delete
+- Deletes data from the server(self-explanatory)
+
+
+HTTP Status Codes:
+> 1xx:Informational
+- Request recieved,understood and accepted
+> 2xx: Success
+- Successfully Recieved,understood and accepted
+> 3xx:Redirect
+- Further action must be taken/redirect
+> 4xx: Client Error
+- Request does not have what it needs
+> 5xx: Server Error
+- Server failed to fulfil an apartment valid request
+
+200-OK
+201-OKcreated
+301-Moved to new URL
+304-Not modified (Cached version)
+400-Bad request
+401-Unauthorized
+404-Not found
+500-Internal server error
+
+HTTP/2 (2^nd version):
+> Major revision of HTTP
+> Under the hood changes
+> Respond with more data
+> Reduce latecy by enabling full request and response multiplexing
+> Fast efficient & secure 
+>  
+
+what is HTTP protocol?-
+- It is called state less protocol.(because none of the client side(phone) and server site really remembers their state after the communication has happend).
+(client asks/requests from server what it needed,after that it forgets without expectation,It is work of server to find the IP address of client and to send the requested information to the client.After that both forgets this conversation means after the tranmission and receivers has happened the connection has been closed,thats why it is called as 'Connectionless'). Now,You have to restablished the connection if you want something elsee from the server.
+- Connectionless (bcz,there connection fails after the conversation.)
+- Media Independent
+- TCP/UDP
+- How the data really transmits between server and client is the work of TCP and UDP.
+
+HTTP Follws:
+- Client/Server Model or Request/Response Model
+- Stateless (e.g: fliping a coin and getting the result is stateless.)
+- Application Layer (and Transfer Layer protocol?)
+- Client Action(HTTP methods)
+- Server status codes
+- Headers
+(all headers are tiny bits of custom informmation that you send along with your request and with your responses.the main purpose of headers and all this costom little bits of information is to kind of tweak the operation of the request.)
+e.g:(headers)
+- Request Header-Content Type (want a text file,xml file)
+- Reponse Header- Cache Control 
+
+
+
+

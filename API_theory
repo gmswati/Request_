@@ -1,0 +1,58 @@
+pip:it is a pakage installer helps us to install python library or modules.it is specilly used for python.
+apt: it is also a pakage installerand helps us to install pakage. It searches whole web page.
+ctrl+c: to stop the whole project.
+ctrl+d: to stop in front but it will continue running in backgroud.
+ctrl+z: to Undo
+
+Application Programming Interface(API)
+-An API is a software intermediatory that allows two or more applications to talk to each other.
+
+API Type in terms of Release Policies:-
+> Private- It can be used within the organisation.
+> Partner- It can be used with Business Partners.
+> Public- It can be by used any third party Devlopers.
+
+
+What is web API?
+> An API,which is interface for web is called as Web API.
+It may consist of one or more endpoints to define request and response.
+
+How Web API works:
+- Clients makes HTTP Request to API.
+- API will communicate to Web Application/Database(if needed)
+- Web Application/Database provides required data to API.
+- API returns Data to Client
+Note- Json Data,XML Data
+
+How to use Web API:
+- Register /Sign-up to API
+- API may provide API Key for Authentication purpose
+    API key/Token:23432jfhkjhoi5453ldndv4129
+- Whenever you need to communicate with server make Request to API with API key
+    http://geekyshows.com//key=23432jfhkjhoi5453ldndv4129
+- If API Key authentication succeed ,API will provide required data
+
+
+What is Rest :(REpresentational State Transfer)
+> It is an architectural guideline to devlop Web API.
+
+Rest API:
+> the API which is developed using REST is known as REST API/RESTful API. 
+
+How REST WEB API work:
+- Client makes HTTP Request to API
+- API will communicate to Web Application/Database(if needed)
+- API returns response Data to client
+Note- Json Data,XML Data
+
+CRUD Operations:
+Operation       HTTP Methods        Description
+---------      --------------      --------------
+Create              Post           Creating/Posting/Inserting Data
+Read                Get             Reading/Getting/Retrieving Data
+Update           Put,Patch          Update Date
+                                    Complete update-Put
+                                    Partial Update-PATCH
+Delete            Delete            Deleting Data
+
+

@@ -1,0 +1,84 @@
+# # What is Python Requests ?
+
+# >>Python Requests is a python library used to get requests from the web pages.
+# > Requests in Pyhton is a module which can be used to send all kinds of HTTP requests.
+# It is very easy to use and has features like passing parameters in the URL and passing costom headers as well.
+# It is a human friendly HTTP library as it also suggests on the official documentation page as well and it is one of the most downloaded python library with more than 400_000 downloads every day so you can imagine the popularity of python requests.
+# It was written by Kenneth writes and has a license under Apache 2.O so this is all about python request.
+
+# # Advanced Features of Python Requests:
+# > Keep Alive & Connection Pooling
+# > Elegant key/Value cookies
+# > International Domains & URLs
+# > Automatic Decompression
+# > Sessions with Cookies Persistence
+# > Unicode Response Bodies
+# > Browser Style SSL Verification
+# > HTTPs Peroxy Support
+# > Automatic Content decodestring
+# > Multipart File Uploads
+# > Basic/Digest Authentication
+# > Streaming Downloads
+# > Connection Timeouts
+# > Chunked Requests
+
+# # Why use Python Requests?
+
+# > Do not have to manually add query strings to URls, or formencode Post data.
+
+# # Making GET Requests:
+# > Get request is used to request the data from the server.
+
+# > Syntax:
+# import requests
+# r=requests.get('url')
+# #we will have a response object r.
+# #print(r.text)
+
+# # Making POST Requests:
+# > Post request is used to submit the data to be processed to the server.
+ 
+# >Syntax:
+# import requests
+# payload={key1:value1,key2:value2}
+# r=requests.post('url',data=payload)
+# #we will have a response object r.
+
+
+# # Cookies And Headers:
+# > We can view the servers headers using a python dictionary and similarly  access the cookies in the server as well. 
+# print(r.headers)
+# # r here is the response object.
+# print(r.cookies)
+# # r here is the response object.
+# To send our own cookies,we can use the cookies parameter.
+
+
+# # Session Objects:
+# >The session object persists certain parameters over multiple requests.
+# -persists cookies acroos all requests made from the session instance.
+# -Use urllib3 connection pooling
+# -Significant Performance Increase
+# -A session Object has all the methods of the main requests API 
+
+
+# # Errors And Exception:
+# -In the event of the network problem,requests will raise a ConnectionError exception.
+# -Response.raise_for_status() will raise an HTTP error when there is an unsuccessful status code.
+# -if there is a timeout,it will raise a Timeout exception. 
+# -TooManyRedirects exception is raised if the request exceeds the configured number of maximum number of redirections.
+
+
+# var+function+class=module 
+# collection of modules = package 
+# collections of pakages = Library
+# ssl
+# status code
+# rest api 
+# API 
+# difference between API rest API 
+# websites 
+# protocol :
+# - A system of fixed rules and format behaviour used at official meetings ,usually between governments
+
+# browser
